@@ -1,0 +1,8 @@
+#Crie um programa que leia o nome completo e informe se possui o nome "SILVA"
+
+nome_completo = input("Digite seu nome completo: ")
+
+if "SILVA" in nome_completo.upper():
+    print("O nome SILVA está presente no nome completo!")
+else:
+    print("O nome SILVA não está presente no nome completo.")
